@@ -2,6 +2,7 @@
 
 Static personal site for coursework / job applications: **About Me**, **Skills**, **Projects**, **CV** (PDF), and **Contact**. Built with plain HTML, CSS, and a single JavaScript `profile` object—no build step.
 
+![Model Performance Result](./result.png)
 ---
 
 ## What’s in this repo
