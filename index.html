@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Job-Seeking Website</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 id="name">Your Name</h1>
+      <p id="headline" class="headline">Positioning statement</p>
+      <ul id="tags" class="tag-list"></ul>
+    </div>
+  </header>
+
+  <nav class="site-nav">
+    <div class="container nav-wrap">
+      <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#cv">CV</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <div id="bio" class="bio-text"></div>
+      <div class="grid two-col">
+        <div>
+          <h3>Education</h3>
+          <p id="education"></p>
+        </div>
+        <div>
+          <h3>Strengths</h3>
+          <ul id="strengths"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <div class="grid three-col">
+        <div>
+          <h3>Technical Skills</h3>
+          <ul id="technicalSkills"></ul>
+        </div>
+        <div>
+          <h3>Business Skills</h3>
+          <ul id="businessSkills"></ul>
+        </div>
+        <div>
+          <h3>Tools</h3>
+          <ul id="tools"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      <div id="projectCards" class="project-grid"></div>
+    </section>
+
+    <section id="cv" class="card">
+      <h2>CV</h2>
+      <p id="resumeText"></p>
+      <p><a id="resumeLink" href="#" target="_blank" rel="noopener">Download CV (PDF)</a></p>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <ul class="contact-list">
+        <li>
+          <strong>Email:</strong>
+          <a id="emailLink" href="#"></a>
+          <span class="contact-sep"> · </span>
+          <a id="emailLinkAlt" href="#"></a>
+        </li>
+        <li><strong>GitHub:</strong> <a id="githubLink" href="#" target="_blank" rel="noopener">Not provided</a></li>
+        <li><strong>Phone:</strong> <span id="phoneText">Not provided</span></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p id="footerText"></p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
