@@ -1,6 +1,6 @@
 # Personal Job-Seeking Website
 
-Static personal site for coursework / job applications: **About**, **Skills**, **Projects**, **CV** (PDF), and **Contact**. Built with plain HTML, CSS, and a single JavaScript `profile` object—no build step.
+Static personal site for coursework / job applications: **About Me**, **Skills**, **Projects**, **CV** (PDF), and **Contact**. Built with plain HTML, CSS, and a single JavaScript `profile` object—no build step.
 
 ---
 
@@ -17,7 +17,7 @@ The hero area (name, one-line headline, tags) is in the header; there is no sepa
 
 ---
 
-## Edit your content
+## Content
 
 Open **`script.js`** and update the `profile` object:
 
@@ -26,8 +26,8 @@ Open **`script.js`** and update the `profile` object:
 - `educationLines` (two lines shown under **Education**)
 - `strengths`, `technicalSkills`, `businessSkills`, `tools`
 - `projects` — each item has `title`, `time`, `problem`, `data`, `approach`, `outcome`, `contribution`, optional `links`
-- `resumeText`, `resumeLink` (path or URL to your PDF)
-- `contact`: `email`, `emailAlt`, `github`, `phone`
+- `resumeText`, `resumeLink` (path to PDF)
+- `contact`: `email`,  `github`, `phone`
 
 After changing the PDF filename, set `resumeLink` to match .
 
@@ -55,7 +55,7 @@ Then open [http://localhost:8000](http://localhost:8000).
    `index.html`, `styles.css`, `script.js`, `LIUHang.pdf` (or your chosen PDF + matching `resumeLink`).
 3. **Settings → Pages → Build and deployment**
    - Source: **Deploy from a branch**
-   - Branch: **`main`** (or `master`), folder **`/ (root)`**
+   - Branch: **`main`** , folder **`
 4. Wait 1–3 minutes, then open:  
    `https://<username>.github.io/<repository>/`
 
